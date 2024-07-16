@@ -1,0 +1,197 @@
+.b-table {
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 10rem;
+}
+
+.modal-open {
+    overflow: hidden !important;
+}
+
+#btn_update_pass {
+    width: 10rem;
+}
+
+#btn_update {
+    width: 10rem;
+}
+
+a.btn {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(83, 82, 82, 0.712) !important;
+}
+
+.switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+}
+
+.switchBtn input {
+    display: none;
+}
+
+.slide {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dc3545;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 8px;
+    color: #fff;
+}
+
+.slide:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 78px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slide {
+    background-color: #198754;
+    padding-left: 40px;
+}
+
+input:focus+.slide {
+    box-shadow: 0 0 1px #ccc;
+}
+
+input:checked+.slide:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -20px;
+}
+
+.slide.round {
+    border-radius: 34px;
+}
+
+.slide.round:before {
+    border-radius: 50%;
+}
+
+.left_30 {
+    left: 28px !important;
+}
+
+
+/*LOADER*/
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/loader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: 1;
+}
+
+.fa-1x {
+    font-size: 1.3rem !important;
+}
+
+.fa-3x {
+    font-size: 1.3rem !important;
+}
+
+.tdw {
+    width: 4.3rem !important;
+}
+
+.tdwr {
+    text-align: center !important;
+    width: 4.3rem !important;
+}
+
+.toggle {
+    width: 150px !important;
+}
+
+.toggle-handle {
+    background-color: white !important;
+}
+
+.toggle-handle:hover {
+    background-color: #bd2130 !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.card_border{
+    border: 1px solid;
+    border-color: #9a9ba1d2;
+}
+
+.btn-w {
+    width: 3rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+
+/*PEDIDOS*/
+.content_add_p{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.less,  .more{
+    padding: 5px;
+    height: 20px;
+}
+
+.num {
+    margin: 5px;
+}
+
+.bca {
+    background-color: #ec7a00;
+    border-color: #ec7a00;
+}
+.bca:hover {
+    transform: scale(1);
+    background-color: #ec7a00;
+    border-color: #ec7a00;
+}
+
+.red_page {
+    background-color: #bd454e;
+}
+.yel_page {
+    background-color: #f1c028;
+}
+
+.green_page {
+    background-color: #198754;
+}
+
+.stats-icon{
+    color: white;
+}
+
+.input-group {
+    width: 100px !important;
+}

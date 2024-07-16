@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>El Poblado, Medellín</name>
+    <description>Polígono detallado para el Barrio El Poblado en Medellín, Colombia.</description>
+    <Style id="areaStyle">
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>2</width>
+        </LineStyle>
+        <PolyStyle>
+            <color>7f00ffff</color>
+        </PolyStyle>
+    </Style>
+    <Placemark>
+        <name>El Poblado</name>
+        <styleUrl>#areaStyle</styleUrl>
+        <Polygon>
+            <extrude>1</extrude>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -75.574821,6.208273,0 
+                        -75.573911,6.204929,0 
+                        -75.571066,6.201642,0 
+                        -75.568448,6.198948,0 
+                        -75.564438,6.195700,0 
+                        -75.563253,6.199390,0 
+                        -75.561182,6.203037,0 
+                        -75.562898,6.205699,0 
+                        -75.566477,6.209151,0 
+                        -75.570434,6.212344,0 
+                        -75.572620,6.213689,0 
+                        -75.575532,6.215065,0 
+                        -75.578402,6.215952,0 
+                        -75.579326,6.212334,0 
+                        -75.579155,6.209716,0 
+                        -75.577497,6.207145,0 
+                        -75.574821,6.208273,0 
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
